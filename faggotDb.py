@@ -1,7 +1,7 @@
-from vapoursynth import core, VideoNode, GRAY, YUV, VideoNode
+from vapoursynth import core, VideoNode, GRAY, YUV
 import vapoursynth as vs
-import kagefunc as kgf
-import fvsfunc as fvf
+import kagefunc as kgf #https://github.com/Irrational-Encoding-Wizardry/kagefunc/
+import fvsfunc as fvf #https://github.com/Irrational-Encoding-Wizardry/fvsfunc/
 
 core = vs.core
 
