@@ -1,7 +1,4 @@
-# faggotDb
- VapourSynth Function That Helps You With Debanding.
+# faggotdb
+VapourSynth Function That Helps You With Debanding.
 
-Created by "{}".format(authorName)
-
-
-Edited by me (AlucardSama04). I just added Edge Masks.
+print(f'Created by {authorName}')
