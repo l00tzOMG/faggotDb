@@ -6,7 +6,7 @@ from vsutil import split #https://github.com/Irrational-Encoding-Wizardry/vsutil
 
 core = vs.core
 
-def faggotdb(clip: vs.VideoNode, thrY=40, thrC=None, radiusY=12, radiusC=12, mask="retinex", CbY=44, CrY=44, CbC=44, CrC=44, grainY=15, grainc=0, sample_mode=sample_mode, sample_mode=2, dynamic_grainY=False, dynamic_grainC=False, tv_range=True, binarize=True, binarize_thr=5000) -> vs.VideoNode:
+def faggotdb(clip: vs.VideoNode, thrY=40, thrC=None, radiusY=12, radiusC=12, mask="retinex", CbY=44, CrY=44, CbC=44, CrC=44, grainY=15, grainc=0, sample_mode=2, dynamic_grainY=False, dynamic_grainC=False, tv_range=True, binarize=True, binarize_thr=5000) -> vs.VideoNode:
 
     # Original Idea: Author who created Fag3kdb. Edited by AlucardSama04
 
