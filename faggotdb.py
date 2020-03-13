@@ -58,7 +58,7 @@ def faggotdb_mod(clip: vs.VideoNode, thrY=40, thrC=None, radiusY=12, radiusC=12,
         raise TypeError("FaggotDb: This is not a clip")
 
     if clip.format.bits_per_sample != 16:
-        raise TypeError("FaggotDb: Only 16Bit clips are supported")
+        clip = fvf.Depth(clip, bits=16) # instead of error, auto convert to 16 bits
 
     if thrC is None:
         thrC = int(round(thrY / 2))
