@@ -80,7 +80,7 @@ def faggotdb_mod(clip: vs.VideoNode, thrY=40, thrC=None, radiusY=15, radiusC=15,
     if grayscale:
         mask = core.std.ShufflePlanes(mask, planes=0, colorfamily=vs.GRAY)
          
-    if binarize:     # binarize treshold should be adjusted according to bitdepth
+    if binarize:     # binarize threshold should be adjusted according to bitdepth
         mask = core.std.Binarize(mask, threshold=binarize_thr)
         
     if blurmask:
