@@ -1,4 +1,4 @@
-# faggotdb
-VapourSynth Function That Helps You With Debanding.
+# faggotdb_mod
+Advanced debanding filter with various edgemasks for VapourSynth
 
-print(f'Created by {authorName}')
+modifications by l00t
